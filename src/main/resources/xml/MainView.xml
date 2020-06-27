@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1024dp"
+    android:layout_height="600dp"
+    android:background="#1C1C1C">
+
+    <ImageView
+        android:id="@+id/title3"
+        android:layout_width="362dp"
+        android:layout_height="396dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/backs"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="449dp"
+        android:layout_height="499dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/battery"
+        tools:layout_editor_absoluteX="493dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBarBatteryLevel"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="340dp"
+        android:layout_height="139dp"
+        android:background="#1C1C1C"
+        tools:layout_editor_absoluteX="535dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="601dp"
+        android:layout_height="91dp"
+        android:background="#303030"
+        android:text="."
+        android:textColor="#FFFFFF"
+        android:textSize="1dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="400dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <ImageView
+        android:id="@+id/img_low_alert"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/low_power"
+        tools:layout_editor_absoluteX="725dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <ImageView
+        android:id="@+id/img_wake_lock"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/wake_lock"
+        tools:layout_editor_absoluteX="418dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <ImageView
+        android:id="@+id/img_uevent_alert"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/uevent"
+        tools:layout_editor_absoluteX="644dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="338dp"
+        android:layout_height="44dp"
+        android:background="#303030"
+        android:text="BATTERY INFO:"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <TextView
+        android:id="@+id/voltage"
+        android:layout_width="315dp"
+        android:layout_height="43dp"
+        android:background="#303030"
+        android:text="Voltage: {}"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="317dp"
+        android:layout_height="39dp"
+        android:background="#303030"
+        android:text="Capacity: {}"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="322dp"
+        android:layout_height="89dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/torizon_logo_white"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="268dp"
+        android:layout_height="62dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/totalcross_logo"
+        tools:layout_editor_absoluteX="396dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="292dp"
+        android:layout_height="88dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/embarcados_logo"
+        tools:layout_editor_absoluteX="704dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <Button
+        android:id="@+id/button_sleep"
+        android:layout_width="327dp"
+        android:layout_height="57dp"
+        android:text="SLEEP"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="327dp"
+        android:layout_height="57dp"
+        android:text="ABOUT"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <Button
+        android:id="@+id/button_wake_lock"
+        android:layout_width="327dp"
+        android:layout_height="57dp"
+        android:text="WAKE LOCK"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
